@@ -67,6 +67,8 @@ body {
 /* MAIN CONTENT */
 main {
     padding-top: 100px;
+    background-color: #0f172a;
+    min-height: 100vh;
 }
 
 /* PROJECT SECTIONS */
