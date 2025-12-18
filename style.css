@@ -165,6 +165,21 @@ main {
     text-decoration: underline;
 }
 
+.project-bullets {
+    margin-top: 15px;
+    padding-left: 20px;
+    color: #cbd5f5;
+}
+
+.project-bullets li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.project-bullets li::marker {
+    color: #60a5fa;
+}
+
 /* TOOLS USED */
 .tools {
     margin-top: 18px;
