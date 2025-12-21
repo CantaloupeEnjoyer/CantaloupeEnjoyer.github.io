@@ -16,7 +16,8 @@
             <div class="dropdown-content">
                 <a href="#project1">VR Wheelchair Simulator</a>
                 <a href="#project2">Memory Allocator</a>
-                <a href="#project3">FAT32 File System Interpreter</a>
+                <a href="#project3">FAT32 File System</a>
+                <a href="#project4">Transaction Manager</a>
             </div>
         </div>
     </nav>
@@ -72,7 +73,7 @@
                 </p>
                 <ul class="project-bullets">
                     <li>Designed and implemented four custom dynamic memory allocation algorithms in C, replacing the standard malloc</li>
-                    <li>Developed First Fit, Next Fit, Best Fit, and Worst Fit strategies for heap allocation.</li>
+                    <li>Developed First Fit, Next Fit, Best Fit, and Worst Fit strategies for heap allocation</li>
                     <li>Created benchmarking test applications to compare custom implementations against standard malloc in terms of performance and memory efficiency</li>
                 </ul>
                 <div class="tools">
@@ -113,6 +114,32 @@
                     </ul>
                 </div>
                 <a href="https://github.com/CantaloupeEnjoyer/FAT32-File-System-Interpreter">View on GitHub</a>
+            </div>
+        </section>
+        
+        <!-- PROJECT 4 (reversed) -->
+        <section id="project4" class="project reverse">
+            <img src="images/transactionManager.png" alt="Transaction Manager Screenshot">
+            <div class="project-text">
+                <h2>Transaction Manager</h2>
+                <p>
+                    This project implements the transaction logic for Strict 2PL specification. 
+                    The focus of the implementation is on correct synchronization, locking, and waiting behavior to ensure safe concurrent execution.
+                </p>
+                <ul class="project-bullets">
+                    <li>Implements transaction execution with proper lock acquisition and release</li>
+                    <li>Ensures correctness under concurrent transaction execution</li>
+                    <li>Uses waiting logic to handle lock contention safely</li>
+                </ul>
+                <div class="tools">
+                    <span class="tools-label">Tools Used:</span>
+                    <ul>
+                        <li>C</li>
+                        <li>GCC</li>
+                        <li>GDB</li>
+                    </ul>
+                </div>
+                <a href="https://github.com/CantaloupeEnjoyer/Transaction-Manager-Implementation">View on GitHub</a>
             </div>
         </section>
 
